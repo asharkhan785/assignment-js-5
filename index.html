@@ -1,0 +1,109 @@
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashar khan
+        
+    </title>
+</head>
+<body>
+
+    <script>
+        // Task 1: Addition
+        var num1 = prompt("enter first number");
+        var num2 = prompt("enter second number");
+        var resultAddition = num1 + num2;
+        document.write("Task 1: Addition Result: " + resultAddition + "<br>");
+
+        // Task 2: Subtraction, Multiplication, Division, Modulus
+        var resultSubtraction = num1 - num2;
+        var resultMultiplication = num1 * num2;
+        var resultDivision = num1 / num2;
+        var resultModulus = num1 % num2;
+        document.write("Task 2: Subtraction Result: " + resultSubtraction + "<br>");
+        document.write("Task 2: Multiplication Result: " + resultMultiplication + "<br>");
+        document.write("Task 2: Division Result: " + resultDivision + "<br>");
+        document.write("Task 2: Modulus Result: " + resultModulus + "<br>");
+
+        // Task 3: JS Math Expressions
+        var variable;
+        document.write("Task 3a: Variable declared<br>");
+        document.write("Task 3b: Value after variable declaration is: " + variable + "<br>");
+        variable = prompt("enter any number");
+        document.write("Task 3c: Initial value: " + variable + "<br>");
+        variable++;
+        document.write("Task 3e: Value after increment is: " + variable + "<br>");
+        variable += prompt("enter any number");
+        document.write("Task 3g: Value after addition is: " + variable + "<br>");
+        variable--;
+        document.write("Task 3i: Value after decrement is: " + variable + "<br>");
+        var remainder = variable % 3;
+        document.write("Task 3k: The remainder after dividing the variable’s value by 3 is: " + remainder + "<br>");
+
+        // Task 4: Movie Ticket Cost
+        var ticketPrice = prompt("enter ticket price");
+        var numberOfTickets = prompt("enter number of ticket");
+        var totalCost = ticketPrice * numberOfTickets;
+        document.write("Task 4: Total cost to buy " + numberOfTickets + " tickets to a movie is: " + totalCost + " PKR<br>");
+
+        // Task 5: Multiplication Table
+        var multiplicationNumber = prompt("enter any number");
+        document.write("Task 5: Multiplication table of " + multiplicationNumber + "<br>");
+        for (var i = 1; i <= 10; i++) {
+            document.write(multiplicationNumber + " x " + i + " = " + multiplicationNumber * i + "<br>");
+        }
+
+        // Task 6: Temperature Converter
+        var celsiusTemperature = prompt("enter temperature");
+        var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+        document.write("Task 6: " + celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
+
+        var fahrenheitTemperature2 = prompt("enter farenheit temperature");
+        var celsiusTemperature2 = (fahrenheitTemperature2 - 32) * 5/9;
+        document.write("Task 6: " + fahrenheitTemperature2 + "°F is " + celsiusTemperature2 + "°C<br>");
+
+        // Task 7: Shopping Cart
+        var priceItem1 = prompt("enter first item price");
+        var priceItem2 = prompt("enter second item price");
+        var quantityItem1 = prompt("enter first item quality");
+        var quantityItem2 = prompt("enter second item quality");
+        var shippingCharges = prompt("enter shiping charges");
+        var totalCostShoppingCart = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+        document.write("Task 7: Total cost of your order is: " + totalCostShoppingCart + " PKR<br>");
+
+        // Task 8: Percentage Calculation
+        var totalMarks = prompt("enter your total marks");
+        var marksObtained = prompt("enter your obtained marks");
+        var percentage = (marksObtained / totalMarks) * 100;
+        document.write("Task 8: Percentage: " + percentage + "%<br>");
+
+        // Task 9: Currency Conversion
+        var usDollars = prompt("amount of us dollar");
+        var saudiRiyals = prompt("amount of saudi riyal");
+        var exchangeRateDollarToRupee = prompt("dollar rate in Pakistan");
+        var exchangeRateRiyalToRupee = prompt("riyal rate in Pakistan");
+        var totalCurrencyInRupees = (usDollars * exchangeRateDollarToRupee) + (saudiRiyals * exchangeRateRiyalToRupee);
+        document.write("Task 9: Total currency in PKR is: " + totalCurrencyInRupees + " PKR<br>");
+
+        // Task 10: Arithmetic Operations
+        var arithmeticNumber = prompt("enter any number");
+        var resultArithmetic = ((arithmeticNumber + 5) * 10) / 2;
+        document.write("Task 10: Result of arithmetic operations is: " + resultArithmetic + "<br>");
+
+        // Task 11: Age Calculator
+        var currentYear = 2024;
+        var birthYear = prompt("your birth year");
+        var age1 = currentYear - birthYear;
+        var age2 = age1 - 1;
+        document.write("Task 11: They are either " + age1 + " or " + age2 + " years old<br>");
+
+        // Task 12: Geometrizer
+        var radius = prompt("enter any number");
+        var circumference = 2 * Math.PI * radius;
+        var area = Math.PI * Math.pow(radius, 2)
+
+    </script>
+</body>
+</html>
